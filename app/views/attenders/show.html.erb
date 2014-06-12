@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @attender.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @attender.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @attender.phone %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @attender.company %>
+</p>
+
+<%= link_to 'Edit', edit_attender_path(@attender) %> |
+<%= link_to 'Back', attenders_path %>
